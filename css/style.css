@@ -1,0 +1,68 @@
+.first-container{
+    height: 300px;
+    background-color: hsl(168deg 76% 42%);
+}
+
+.second-container{
+    border: 1px solid black;
+    height: 300px;
+}
+
+.title-portfolio{
+    height: 50px;
+    border: 1px solid black;
+}
+
+.container-portfolio{
+    border: 1px solid black;
+    padding: 30px;
+}
+
+[class*="item-portfolio"]{
+    height: 150px;
+    padding: 15px;
+}
+
+.item-portfolio1{
+    background-color: hsl(347deg 45% 51%);
+}
+
+.item-portfolio2{
+    background-color: hsl(187deg 72% 42%);
+}
+
+.item-portfolio3{
+    background-color: hsl(0deg 14% 7%);
+}
+
+.item-portfolio4{
+    background-color: hsl(203deg 75% 43%);
+}
+
+.item-portfolio5{
+    background-color: hsl(225deg 86% 38%);
+}
+
+.item-portfolio6{
+    background-color: hsl(22deg 29% 72%);
+}
+
+
+.about-title{
+    height: 50px;
+    border: 1px solid black;
+}
+
+.item-about{
+    border: 1px solid black;
+    height: 200px;
+}
+
+.last-container{
+    background-color: hsl(209deg 31% 33%);
+}
+
+.last-second-container{
+    border: 1px solid black;
+    height: 200px;
+}
