@@ -53,9 +53,9 @@ header{
     background-color: hsl(0deg 0% 24%);
     width: 80px;
 }
-
-/* [class*=item-port-]{
-    /* padding: 12px; */
+/* 
+[class*=item-port-]{
+    padding: 12px;
 } */
 
 /* [class*=item-port-]{
@@ -69,5 +69,5 @@ header{
 } */
 
 .resize-img{
-    width: 50%;
+    width: 350px;
 }
