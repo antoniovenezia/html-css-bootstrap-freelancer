@@ -34,6 +34,7 @@ header{
 .container-portfolio{
     color: hsl(0deg 0% 24%);
     text-align: center;
+    padding: 40px 0;
 }
 
 .star2-icon:after {
@@ -53,11 +54,11 @@ header{
     width: 80px;
 }
 
-[class*=item-port-]{
+/* [class*=item-port-]{
     /* padding: 12px; */
-}
+} */
 
-[class*=item-port-]{
+/* [class*=item-port-]{
     border: 1px solid black;
     background-image: url(../img/cabin.png);
     background-size: cover;
@@ -65,4 +66,8 @@ header{
     background-position: center;
     height: 200px;
     margin: 12px 0;
+} */
+
+.resize-img{
+    width: 50%;
 }
