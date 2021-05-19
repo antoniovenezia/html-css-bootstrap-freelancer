@@ -18,6 +18,8 @@
 /* END CLASS UTILITY */
 
 
+
+
 /* NAVBAR */
 
 /* Modifiche classi bootstrap */
@@ -38,6 +40,10 @@
 }
 /* Fine modifiche classi bootstrap */
 
+
+
+
+/* HEADER */
 header{
     margin-top: 60px;
 }
@@ -69,6 +75,8 @@ header{
 
 
 
+
+/* PORTFOLIO */
 .star2-icon:after {
     display: inline-block;
     margin: 0 0 5px 10px;
@@ -92,6 +100,9 @@ header{
 }
 
 
+
+
+/* ABOUT */
 .item-text-about{
     text-align: left;
     margin-bottom: 20px;
@@ -103,6 +114,10 @@ header{
     padding: 10px;
 }
 
+
+
+
+/* CONTACT ME */
 .input-contact-me{
     border: 0px;
     border-bottom: 1px solid black;
@@ -121,6 +136,10 @@ header{
     margin-top: 15px;
 }
 
+
+
+
+/* FOOTER */
 .container-footer{
     background-color: hsl(209deg 31% 33%);
     color: white;
