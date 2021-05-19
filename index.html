@@ -1,60 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Freelcancer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Bootstrap Freelancer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <div class="container-fluid first-container">
-        <div class="container second-container"></div>
-    </div>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">PORTFOLIO<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="container container-portfolio">
-        <div class="title-portfolio"></div>
+
+    <!-- HEADER -->
+    <header class="container-fluid container-green">
+
+        <div class="container">
+            <div class="row header-row">
+
+                <img class="avatar" src="img/avatar.svg" alt="">
+
+                <div class="title">
+                    <h1>START BOOTSTRAP</h1>
+
+                    <div class="star-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <!-- PORTFOLIO -->
+    <div class="container container-white">
         <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-4 item-portfolio1"></div>
-            <div class="col-xs-12 col-md-6 col-lg-4 item-portfolio2"></div>
-            <div class="col-xs-12 col-md-6 col-lg-4 item-portfolio3"></div>
-            <div class="col-xs-12 col-md-6 col-lg-4 item-portfolio4"></div>
-            <div class="col-xs-12 col-md-6 col-lg-4 item-portfolio5"></div>
-            <div class="col-xs-12 col-md-6 col-lg-4 item-portfolio6"></div>
+
+            <div class="col-12 title">
+                <h1>PORTFOLIO</h1>
+
+                <div class="star2-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <img class="resize-img" src="img/cabin.png" alt="">
+                <!-- <div class="item-port-1 "></div> -->
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img class="resize-img" src="img/cake.png" alt="">
+                <!-- <div class="item-port-2"></div> -->
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img class="resize-img" src="img/circus.png" alt="">
+                <!-- <div class="item-port-3"></div> -->
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img class="resize-img" src="img/game.png" alt="">
+                <!-- <div class="item-port-4"></div> -->
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img class="resize-img" src="img/safe.png" alt="">
+                <!-- <div class="item-port-5"></div> -->
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img class="resize-img" src="img/submarine.png" alt="">
+                <!-- <div class="item-port-6"></div> -->
+            </div>
+
         </div>
     </div>
 
-    <div class="container-fluid first-container">
-        <div class="container second-container">
+
+    <!-- ABOUT -->
+    <div class="container-fluid container-green">
+        <div class="container container-about">
             <div class="row">
-                <div class="col-xs-12 about-title"></div>
-                <div class="col-xs-12 col-md-6 item-about"></div>
-                <div class="col-xs-12 col-md-6 item-about"></div>
-                <div class="col-xs-12 about-title"></div>
+
+                <div class="col-10 offset-1 title">
+                    <h1>ABOUT</h1>
+
+                    <div class="star-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="col-10 offset-1 col-md-5 item-text-about">Lorem, ipsum dolor sit Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Debitis incidunt officiis voluptates eum hic consectetur iste
+                    excepturi culpa. Consequuntur aut dolore ducimus commodi eos autem a recusandae, tempore tenetur
+                    laudantium! amet consectetur adipisicing elit. Reiciendis cum perspiciatis eaque architecto magnam,
+                    ipsam itaque odio officia officiis doloremque quisquam corrupti exercitationem iste fuga dolore
+                    culpa quidem vero nemo?</div>
+
+                <div class="col-10 col-md-5 item-text-about">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sequi aut quas maiores similique commodi accusamus officia in alias. Id animi natus ex quam,
+                    excepturi tempora placeat! Veniam dolor delectus Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Reiciendis facere quis repellat tenetur alias placeat iste, sunt atque officiis. Amet, alias
+                    accusantium aut exercitationem sapiente sit voluptatem a tempora ipsum. nobis?</div>
+
+                <div class="col-2 offset-5 download"><i class="fas fa-download"></i> Download</div>
             </div>
         </div>
     </div>
 
-    <div class="container second-container">
-        <div></div>
-        <div></div>
-        <div></div>
+
+    <!-- CONTACT ME -->
+    <div class="container container-white">
+        <div class="row">
+
+            <div class="col-12 title">
+                <h1>CONTACT ME</h1>
+
+                <div class="star2-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <input class="input-contact-me col-10 offset-1" placeholder="Name" type="text">
+            <input class="input-contact-me col-10 offset-1" placeholder="Email Address" type="text">
+            <input class="input-contact-me col-10 offset-1" placeholder="Phone Number" type="text">
+            <textarea placeholder="Message" class="input-contact-me col-10 offset-1" cols="12" rows="5"></textarea>
+        </div>
+        <div class="row col-1 offset-1">
+            <div class="col">
+                <button type="button" class="btn btn-primary button-contact-me">Send</button>
+            </div>
+        </div>    
     </div>
 
-    <div class="container-fluid last-container">
-        <div class="container last-second-container">
+
+    <!-- FOOTER -->
+    <div class="container-fluid container-footer">
+        <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-4 item-about"></div>
-                <div class="col-xs-12 col-md-4 item-about"></div>
-                <div class="col-xs-12 col-md-4 item-about"></div>
+
+                <div class="col-12 col-md-4">
+                    <h3>LOCATION</h3>
+                    <div>2215 John Daniel Drive Clark, MO</div>
+                    <div>54243</div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h3>AROUND THE WEB</h3>
+                    <div class="row">
+                        <i class="col-2 offset-2 fab fa-facebook-f icon-social"></i>
+                        <i class="col-2 fab fa-google-plus-g icon-social"></i>
+                        <i class="col-2 fab fa-twitter icon-social"></i>
+                        <i class="col-2 fab fa-linkedin-in icon-social"></i>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h3>ABOUT FREELANCER</h3>
+                    <div>Freelance is a free to use, open source Bootstrap theme created by <span
+                            class="gree-text-footer">Start Bootstrap</span>.</div>
+                </div>
+
             </div>
         </div>
     </div>
+    <div class="last-footer">
+        <div>Copyright<i class="fas fa-copyright"></i> Your Website 2019</div>
+    </div>
 
-
-    
 </body>
+
 </html>

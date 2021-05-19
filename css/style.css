@@ -1,68 +1,147 @@
-.first-container{
-    height: 300px;
+/* CLASS UTILITY */
+.container-green{
     background-color: hsl(168deg 76% 42%);
+    padding: 40px 0;
+    color: white;
+    text-align: center;
 }
 
-.second-container{
-    border: 1px solid black;
-    height: 300px;
+.container-white{
+    color: hsl(0deg 0% 24%);
+    text-align: center;
+    padding: 40px 0;
 }
 
-.title-portfolio{
-    height: 50px;
-    border: 1px solid black;
+.title{
+    margin-bottom: 10px;
+}
+/* END CLASS UTILITY */
+
+
+/* NAVBAR */
+
+/* Modifiche classi bootstrap */
+.navbar{
+    padding: 10px;
 }
 
-.container-portfolio{
-    border: 1px solid black;
-    padding: 30px;
+.navbar-expand-md{
+    justify-content: space-between;
 }
 
-[class*="item-portfolio"]{
-    height: 150px;
-    padding: 15px;
+.navbar-collapse{
+    flex-grow: 0;
 }
 
-.item-portfolio1{
-    background-color: hsl(347deg 45% 51%);
+.navbar-dark .navbar-nav .nav-link.disabled{
+    color: rgba(255,255,255,.55);
+}
+/* Fine modifiche classi bootstrap */
+
+header{
+    margin-top: 60px;
+}
+.header-row{
+    justify-content: center;
 }
 
-.item-portfolio2{
-    background-color: hsl(187deg 72% 42%);
+.avatar{
+    width: 200px;
+    
 }
 
-.item-portfolio3{
-    background-color: hsl(0deg 14% 7%);
+.star-icon:after {
+    display: inline-block;
+    margin: 0 0 5px 10px;
+    height: 3px;
+    content: " ";
+    background-color: white;
+    width: 80px;
+}
+.star-icon:before {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+    height: 3px;
+    content: " ";
+    background-color: white;
+    width: 80px;
 }
 
-.item-portfolio4{
-    background-color: hsl(203deg 75% 43%);
+
+
+.star2-icon:after {
+    display: inline-block;
+    margin: 0 0 5px 10px;
+    height: 3px;
+    content: " ";
+    background-color: hsl(0deg 0% 24%);
+    width: 120px;
+}
+.star2-icon:before {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+    height: 3px;
+    content: " ";
+    background-color: hsl(0deg 0% 24%);
+    width: 120px;
 }
 
-.item-portfolio5{
-    background-color: hsl(225deg 86% 38%);
-}
-
-.item-portfolio6{
-    background-color: hsl(22deg 29% 72%);
+.resize-img{
+    width: 100%;
+    margin: 12px 0;
 }
 
 
-.about-title{
-    height: 50px;
-    border: 1px solid black;
+.item-text-about{
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-.item-about{
-    border: 1px solid black;
-    height: 200px;
+.download{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.last-container{
+.input-contact-me{
+    border: 0px;
+    border-bottom: 1px solid black;
+    border-color: lightgrey;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-contact-me::placeholder{
+    color: hsl(0deg 0% 24%);
+}
+
+.button-contact-me{
+    background-color: hsl(168deg 76% 42%);
+    border-color: hsl(168deg 76% 42%);
+    margin-top: 15px;
+}
+
+.container-footer{
     background-color: hsl(209deg 31% 33%);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
 }
 
-.last-second-container{
-    border: 1px solid black;
-    height: 200px;
+.icon-social{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 25px 0;
+}
+
+
+.gree-text-footer{
+    color: hsl(169deg 73% 40%);
+}
+
+.last-footer{
+    background-color: hsl(210deg 29% 24%);
+    text-align: center;
+    color: white;
+    padding: 40px 0;
 }
