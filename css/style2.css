@@ -1,11 +1,25 @@
-header{
+/* CLASS UTILITY */
+.container-green{
     background-color: hsl(168deg 76% 42%);
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+
+.container-white{
+    color: hsl(0deg 0% 24%);
+    text-align: center;
     padding: 40px 0;
 }
 
+.title{
+    margin-bottom: 10px;
+}
+/* END CLASS UTILITY */
+
+
+
 .header-row{
-    color: white;
-    text-align: center;
     justify-content: center;
 }
 
@@ -31,11 +45,7 @@ header{
     width: 80px;
 }
 
-.container-portfolio{
-    color: hsl(0deg 0% 24%);
-    text-align: center;
-    padding: 40px 0;
-}
+
 
 .star2-icon:after {
     display: inline-block;
@@ -43,7 +53,7 @@ header{
     height: 3px;
     content: " ";
     background-color: hsl(0deg 0% 24%);
-    width: 80px;
+    width: 120px;
 }
 .star2-icon:before {
     display: inline-block;
@@ -51,23 +61,34 @@ header{
     height: 3px;
     content: " ";
     background-color: hsl(0deg 0% 24%);
-    width: 80px;
+    width: 120px;
 }
-/* 
-[class*=item-port-]{
-    padding: 12px;
-} */
-
-/* [class*=item-port-]{
-    border: 1px solid black;
-    background-image: url(../img/cabin.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 200px;
-    margin: 12px 0;
-} */
 
 .resize-img{
     width: 100%;
+    margin: 12px 0;
+}
+
+
+.item-text-about{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.download{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-contact-me{
+    border: 0px;
+    border-bottom: 1px solid black;
+    border-color: lightgrey;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-contact-me::placeholder{
+    color: hsl(0deg 0% 24%);
 }
