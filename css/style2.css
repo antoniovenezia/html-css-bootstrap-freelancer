@@ -1,0 +1,68 @@
+header{
+    background-color: hsl(168deg 76% 42%);
+    padding: 40px 0;
+}
+
+.header-row{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.avatar{
+    width: 200px;
+    
+}
+
+.star-icon:after {
+    display: inline-block;
+    margin: 0 0 5px 10px;
+    height: 3px;
+    content: " ";
+    background-color: white;
+    width: 80px;
+}
+.star-icon:before {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+    height: 3px;
+    content: " ";
+    background-color: white;
+    width: 80px;
+}
+
+.container-portfolio{
+    color: hsl(0deg 0% 24%);
+    text-align: center;
+}
+
+.star2-icon:after {
+    display: inline-block;
+    margin: 0 0 5px 10px;
+    height: 3px;
+    content: " ";
+    background-color: hsl(0deg 0% 24%);
+    width: 80px;
+}
+.star2-icon:before {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+    height: 3px;
+    content: " ";
+    background-color: hsl(0deg 0% 24%);
+    width: 80px;
+}
+
+[class*=item-port-]{
+    /* padding: 12px; */
+}
+
+[class*=item-port-]{
+    border: 1px solid black;
+    background-image: url(../img/cabin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    margin: 24px;
+}
